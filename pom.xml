@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>org.cylx</groupId>
-	<artifactId>scg-okhttp-mre</artifactId>
+	<artifactId>scg-mvc-okhttp-mre</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>scg-okhttp-mre</name>
 	<description>scg-okhttp-mre</description>
