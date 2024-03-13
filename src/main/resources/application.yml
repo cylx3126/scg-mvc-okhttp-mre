@@ -1,0 +1,15 @@
+server:
+  port: 18080
+
+spring:
+  application:
+    name: scg-okhttp-mre
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: generate_204
+            uri: https://www.gstatic.com
+            predicates: Path=/generate_204
+        http-client:
+          type: autodetect
